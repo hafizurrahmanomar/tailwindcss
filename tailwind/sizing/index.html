@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>tailwind</title>
+  </head>
+  <body>
+    <!-- Fixed widths -->
+
+    <div class="w-96 bg-indigo-200">w-96</div>
+    <div class="w-80 bg-blue-200">w-80</div>
+    <div class="w-64 bg-red-200">w-64</div>
+    <div class="w-48 bg-rose-200">w-48</div>
+    <div class="w-40 bg-green-200">w-40</div>
+
+    <!-- Setting the minimum width -->
+    <div class="w-96">
+      <div class="min-w-80 bg-rose-300">min-w-80</div>
+      <div class="min-w-64 bg-blue-400">min-w-64</div>
+      <div class="min-w-full bg-green-700">min-w-full</div>
+    </div>
+    <!-- Setting the minimum width -->
+    <div class="min-w-[220px] bg-red-300">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <!-- Setting the maximum width -->
+    <div>
+      <div class="w-full max-w-96 bg-indigo-700">max-w-96</div>
+      <div class="w-full max-w-80 bg-indigo-400">max-w-80</div>
+    </div>
+    <!-- Fixed sizes  -->
+    <div class="flex gap-4">
+      <div class="size-16 bg-indigo-200">size-16</div>
+      <div class="size-20 bg-rose-200">size-20</div>
+      <div class="size-24 bg-cyan-200">size-24</div>
+      <div class="size-32 bg-blue-200">size-32</div>
+      <div class="size-40 bg-green-200">size-40</div>
+    </div>
+
+    <!-- size-full -->
+    <div class="size-full md:size-auto">
+      <div class="h-24 bg-green-500">size-full md:size-auto</div>
+    </div>
+    <!-- mid:size full -->
+    <div class="size-48 md:size-full bg-blue-500">
+      <h1>size-48 md:size-full</h1>
+    </div>
+    <!-- Hover sizing -->
+    <div class="size-48 bg-rose-200 hover:size-full">
+      <h3>size-48 but hover:size-full</h3>
+    </div>
+  </body>
+</html>
