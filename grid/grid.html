@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .item1 {
+        grid-area: header;
+      }
+      .item2 {
+        grid-area: menu;
+      }
+      .item3 {
+        grid-area: main;
+      }
+      .item4 {
+        grid-area: right;
+      }
+      .item5 {
+        grid-area: footer;
+      }
+      .item6 {
+        grid-area: Add;
+      }
+
+      .grid-container {
+        display: grid;
+        grid:
+          "header header header header header header"
+          "menu main main main right Add"
+          "menu footer footer footer footer Add";
+        grid-gap: 10px;
+        background-color: #2196f3;
+        padding: 10px;
+      }
+
+      .grid-container > div {
+        background-color: gold;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+      }
+
+      h1 {
+        color: green;
+        text-align: center;
+    }
+    </style>
+  </head>
+  <body>
+    <h1>webappdeveloperbd Webpage Template</h1>
+    <p>This grid layout contains six columns and three rows:</p>
+
+    <div class="grid-container">
+      <div class="item1">Header</div>
+      <div class="item2">Menu</div>
+      <div class="item3">Main</div>
+      <div class="item4">Right</div>
+      <div class="item5">Footer</div>
+      <div class="item6">Add</div>
+    </div>
+  </body>
+</html>

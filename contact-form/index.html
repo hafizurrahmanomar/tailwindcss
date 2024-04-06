@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li>Contact</li>
+      </ul>
+    </nav>
+
+    <section class="contact">
+      <div class="contact__container">
+        <!-- Form Aside -->
+        <aside class="contact__sidebar">
+          <img
+            class="sidebar__image"
+            src="./images/Contact.png"
+            alt="Contact Image"
+          />
+
+          <h2>Contact Me</h2>
+          <h4>Connect me with just a single click</h4>
+          <ul class="contact_details">
+            <li>
+              <i class="uil uil-envelopes"></i>
+              <h5>info@webappdeveloperbd.com</h5>
+            </li>
+            <li>
+              <i class="uil uil-calling"></i>
+              <h5>+880 17 34 73 10 69</h5>
+            </li>
+            <li>
+              <i class="uil uil-map-marker"></i>
+              <h5>Pabna, Bangladesh</h5>
+            </li>
+          </ul>
+          <ul class="social__contact">
+            <li>
+              <a
+                href="https://www.facebook.com/webappdeveloperbd"
+                target="_blank"
+                ><i class="uil uil-facebook-f"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/hafizurrahmanomar/"
+                target="_blank"
+                ><i class="uil uil-linkedin-alt"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/hafizurrahmano_" target="_blank"
+                ><i class="uil uil-twitter-alt"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/hafizurrahmanomar"
+                target="_blank"
+                ><i class="uil uil-instagram"></i
+              ></a>
+            </li>
+          </ul>
+        </aside>
+
+        <!-- Main Form -->
+        <form
+          id="contact__form"
+          action="copy and paste here the url from https://formspree.io"
+          method="POST"
+        >
+          <input
+            type="text"
+            name="First Name"
+            placeholder="First_name"
+            required
+          />
+          <input
+            type="text"
+            name="Last Name"
+            placeholder="Last_name"
+            required
+          />
+          <input
+            type="email"
+            name="Email Address"
+            placeholder="Your email"
+            required
+          />
+          <input type="text" name="Mobile" placeholder="Mobile No" />
+          <textarea
+            name="Message"
+            rows="8"
+            placeholder="Type your Message here"
+            required
+          ></textarea>
+          <button class="form__submit__btn" type="submit">
+            Send Me Message
+          </button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

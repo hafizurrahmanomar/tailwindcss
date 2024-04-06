@@ -1,0 +1,135 @@
+*{
+    padding: o;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+.main{
+    width: 600px;
+    height: 600px;
+    background-color: blue;
+    margin: 0 auto;
+    position: relative;
+}
+.common{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+
+}
+ .one{
+    
+    background-color:crimson;
+    left: 10px; 
+}
+
+.two{
+    background-color:chartreuse;
+    right: 10px;
+   
+}
+
+.three{
+    background-color:cyan;
+    left: 10px;
+    bottom: 10px;
+   
+}
+.four{
+    background-color:darkorange;
+    right: 10px;
+    bottom: 10px;
+   
+}
+
+.five{
+    background-color:hotpink;
+    left: 50%;
+    transform: translateX(-50%);
+   
+}
+
+.six{
+    background-color:moccasin;
+    left: 50%;
+    top: 50%;
+    width: 200px;
+    height: 200px;
+    transform: translateX(-50%)  translateY(-50%);
+   
+    -webkit-transform: translateX(-50%)  translateY(-50%);
+    -moz-transform: translateX(-50%)  translateY(-50%);
+    -ms-transform: translateX(-50%)  translateY(-50%);
+    -o-transform: translateX(-50%)  translateY(-50%);
+    z-index: 3;
+}
+
+
+.seven{
+    background-color:brown;
+    left: 50%;
+    top: 50%;
+    width: 100px;
+    height: 300px;
+    transform: translateX(-50%)  translateY(-50%);
+    z-index: 2;
+}
+
+
+.eight{
+    background-color:yellow;
+    left: 50%;
+    top: 50%;
+    width: 250px;
+    transform: translateX(-50%)  translateY(-50%);
+   
+    -webkit-transform: translateX(-50%)  translateY(-50%);
+    -moz-transform: translateX(-50%)  translateY(-50%);
+    -ms-transform: translateX(-50%)  translateY(-50%);
+    -o-transform: translateX(-50%)  translateY(-50%);
+    z-index: 1;
+}
+
+
+
+
+
+.flag{
+    width:500px;
+    height: 500px;
+    background-color: blue;
+    margin: 50px auto;
+    position: relative;
+ 
+
+}
+
+.midale{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    left:50%;
+    top:50%;
+    /* transform: translateX(-50%), translateY(-50%); */
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    -webkit-transform: translateX(-50%),;
+    -moz-transform: translateX(-50%),;
+    -ms-transform: translateX(-50%),;
+    -o-transform: translateX(-50%),;
+}
+
+
+.img-bg{
+
+    width: 1200px;
+    height: 400px;
+    margin: 200px auto;
+    background-color: blue;
+
+}

@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #44448d;
+  color: #fff;
+}
+
+.navbar {
+  background: #373770;
+  height: 50px;
+  padding: 20px;
+  margin: 0;
+}
+
+.navbar li {
+  display: flex;
+  float: right;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Form Aside */
+.sidebar__image {
+  width: 80%;
+}
+.contact__container {
+  background-color: #6262f4;
+  padding: 4rem;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 4rem;
+  height: 30rem;
+  margin-top: 10rem;
+  border-radius: 1rem;
+}
+
+.contact__sidebar {
+  background: #7575f8;
+  padding: 3rem;
+  border-radius: 1rem;
+  position: relative;
+  bottom: 10rem;
+}
+
+.contact_details li {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+
+.contact__sidebar h2,
+h4 {
+  margin-bottom: 1.5rem;
+}
+
+.social__contact {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin-top: 2rem;
+}
+
+.social__contact a {
+  background: #5151f2;
+  color: white;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 1.2rem;
+  transition: 1s;
+}
+
+.social__contact a:hover {
+  background: rgb(68, 196, 235);
+}
+/* Main Form */
+#contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin: 4rem 4rem 0 0;
+}
+
+input,
+textarea,
+.form__submit__btn {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.form__submit__btn {
+  background: #44448d;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: 0.8s;
+}
+
+.form__submit__btn:hover {
+  background: #9047ee;
+  color: rgb(68, 235, 185);
+  cursor: pointer;
+}

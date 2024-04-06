@@ -1,0 +1,44 @@
+/* Designing all grid */
+.grid-container {
+    /* Display properties */
+    display: grid;
+    background-color: green;
+    padding: 25px; 
+      /* Columns and rows*/
+   /* grid-template-columns: auto auto auto auto auto; */
+    /* grid-template-columns: 5rem 10rem 3rem; */
+    /* grid-template-columns: 2fr 4fr 2fr; */
+    /* grid-template-columns:repeat(3,1fr); */
+    grid-template-columns: 25% 50% 25%;
+    /* grid-template-columns: subgrid; */
+
+    /* grid-template-rows: 3rem 20% auto; */
+     /* Gaps */
+  /* grid-row-gap: 1rem;
+  grid-column-gap: 0.5rem; */
+    /* grid-column-gap: 0.5rem; */
+    grid-gap: 1rem 0.5rem;
+    
+    
+   
+}
+
+/* Designing all grid-items */
+.grid-item {
+    background-color:gainsboro;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+     /* Place item shorthand */
+     place-items: start stretch;
+     
+}
+
+/* Designing h1 element */
+h1 {
+    color: green;
+    text-align: center;
+}
+
+

@@ -1,0 +1,138 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+  
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul, ol{
+    list-style: none;
+}
+.clear{
+    clear:both;
+}
+
+/* common css end */
+
+
+/* menu css start */
+
+
+.menu-bg{
+    height: 100px;
+    background: rgb(6,1,14);
+    background: -moz-linear-gradient(90deg, rgba(6,1,14,1) 8%, rgba(251,14,23,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(6,1,14,1) 8%, rgba(251,14,23,1) 100%);
+    background: linear-gradient(90deg, rgba(6,1,14,1) 8%, rgba(251,14,23,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#06010e",endColorstr="#fb0e17",GradientType=1);
+
+
+}
+
+
+ .logo{
+
+width: 30%;
+float: left;
+}
+
+.logo img{
+   margin-left: 100px;
+  
+}
+
+.menu-item{width: 70%;
+    float:right;
+}
+
+.menu .menu-item ul{
+    float: left;
+}
+.menu .menu-item ul li{
+    display:inline-block;
+    position: relative;
+    
+}
+
+.menu .menu-item ul li a{
+    color: white;
+    font-size: 20px;
+    margin: 0 20px;
+    line-height: 100px;
+    transition: all linear 0.5s;
+    font-weight: 500;
+    border-bottom: solid 2px transparent; 
+   
+    
+
+}
+
+.menu .menu-item ul li a:hover{
+    color:red;
+    background-color:dimgray;
+    border-bottom: solid 2px white; 
+  
+  
+}
+
+/* Sub-menu */
+.menu .menu-item ul li ul{
+    display: block;
+    position: absolute;
+    background-color: black;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 98%;
+    width: 120px;
+    text-align: center;
+    -webkit-transform: translateX(-50);
+    -moz-transform: translateX(-50);
+    -ms-transform: translateX(-50);
+    -o-transform: translateX(-50);
+    /* display: none; */
+    opacity: 0;
+    visibility: hidden;
+    border-left:6px solid blue;
+}
+
+.menu .menu-item ul li:hover > ul{
+    /* display: block; */
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.menu .menu-item ul li ul li {
+    display: block;
+
+}
+
+.menu .menu-item ul li ul li a{
+    line-height: 50px;
+    font-size:16px;
+    font-weight: 300px;
+    display: block;
+    margin: 0;
+
+}
+
+/* sub.menu of sub.menu */
+
+.menu .menu-item ul li ul li ul{
+   left: 100%;
+   transform: translateX(0);
+   -webkit-transform: translateX(0);
+   -moz-transform: translateX(0);
+   -ms-transform: translateX(0);
+   -o-transform: translateX(0);
+}
+
+
